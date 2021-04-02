@@ -1,0 +1,42 @@
+@media only screen and (min-width: 992px) {
+    html{
+        font-size: 75% !important;
+    }section{
+        width: 50% !important;
+        height: 60vh !important;
+        }
+        .main{
+            width: 100% !important;
+            min-height: 29vh !important;
+        }
+        div.container{
+            justify-content: space-evenly !important;
+            width: 100% !important;
+            height: 31vh !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            .first{
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 50% !important;
+                height: 100% !important;
+                p{
+                    margin-top: .25rem !important;
+                    .snapp{
+                        margin-bottom: .2rem !important;
+                    }
+                }
+                button{
+                    margin: 0 !important;
+                    width: 17% !important;
+                    transform: translate(-26rem, -35%) !important;
+                }
+            }
+            .second{
+                margin-top: 0 !important;
+                padding: 0 !important;
+                width: 50% !important;
+                height: 100% !important;
+            }
+        }
+    }

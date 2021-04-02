@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  min-height: 100vh;
+  min-width: 100%;
+  background: #e5eff5;
+}
+
+body, section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+section {
+  width: 80%;
+  height: 90vh;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), inset 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), inset 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08);
+          box-shadow: 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), inset 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08), inset 0.6rem 0.5rem 0.6rem 0rem rgba(0, 0, 0, 0.08);
+}
+
+section .main {
+  background: #fff;
+}
+
+section .main h3 {
+  margin: 3rem 0rem 1.5rem 1.5rem;
+}
+
+section .main p.green {
+  color: #c0df34;
+  margin: .5rem 0rem 1.5rem 1.5rem;
+}
+
+section .main p {
+  margin: 1.5rem 2rem 0rem 1.5rem;
+}
+
+section .main, section .first, section .second {
+  width: 100%;
+  min-height: 30vh;
+}
+
+section .cyan {
+  color: #2ab2af;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+section p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+section div.container {
+  color: #fff;
+  width: 100%;
+  background: #2ab2af;
+  height: 60vh;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section div.container .first {
+  width: 100%;
+  height: 30vh;
+}
+
+section div.container .first h3 {
+  margin: 1.5rem 0rem 1.5rem 1.5rem;
+}
+
+section div.container .first p {
+  margin: .5rem 0rem 1.5rem 1.5rem;
+}
+
+section div.container .first p.spanp {
+  margin: 2rem 0rem 1.5rem 1.5rem;
+}
+
+section div.container .first p.spanp span {
+  font-size: 3.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem 0 0;
+}
+
+section div.container .first button {
+  border: none;
+  outline: none;
+  background: #c0df34;
+  width: 70%;
+  border-radius: .5rem;
+  height: 4.5rem;
+  color: #e5eff5;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+section div.container .second {
+  background: #3cbebc;
+  width: 100%;
+  margin-top: 1rem;
+  height: 30vh;
+}
+
+section div.container .second h3 {
+  margin: 1.5rem 0rem 1.5rem 1.5rem;
+}
+
+section div.container .second p {
+  margin: .5rem 0rem .5rem 1.5rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 75% !important;
+  }
+  section {
+    width: 50% !important;
+    height: 60vh !important;
+  }
+  .main {
+    width: 100% !important;
+    min-height: 29vh !important;
+  }
+  div.container {
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    width: 100% !important;
+    height: 31vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  div.container .first {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 50% !important;
+    height: 100% !important;
+  }
+  div.container .first p {
+    margin-top: .25rem !important;
+  }
+  div.container .first p .snapp {
+    margin-bottom: .2rem !important;
+  }
+  div.container .first button {
+    margin: 0 !important;
+    width: 17% !important;
+    -webkit-transform: translate(-26rem, -35%) !important;
+            transform: translate(-26rem, -35%) !important;
+  }
+  div.container .second {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    width: 50% !important;
+    height: 100% !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
